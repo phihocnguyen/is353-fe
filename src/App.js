@@ -31,7 +31,7 @@ function App() {
     const data = {
       features: inputValues
     }
-    fetch('https://is353-be.onrender.com:8888/predict', {
+    fetch('https://is353-be.onrender.com/predict', {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
