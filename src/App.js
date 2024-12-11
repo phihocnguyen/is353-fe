@@ -101,7 +101,7 @@ function App() {
         <div className="modal-overlay">
           <div className="modal-content">
             <h2>Successfully</h2>
-            <p>Your GPA: {GPA}</p>
+            <p>Your GPA: {GPA.toFixed(2)}</p>
             <button onClick={handleCloseModal}>Close</button>
           </div>
         </div>
